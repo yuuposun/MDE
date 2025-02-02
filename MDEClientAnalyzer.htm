@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?><html><head><title>MDE Client Analyzer Results</title><style>
+					h1 { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 32px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+					h2 { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 20.9px; }
+					h3 { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+					p { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+
+					table {
+					display: table;
+					font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+					font-size: 14px;
+					padding: 10px;
+					border: 1px solid black;
+					border-collapse: collapse;
+					border-collapse: collapse;
+					border-spacing: 0;
+					border: 1px solid #ddd;
+					width: 90%;
+					}
+
+					th, td {
+					text-align: left;
+					padding: 8px;
+					}
+					tr:nth-child(even){background-color: #f2f2f2}
+
+					*, :after, :before {
+					box-sizing: border-box;
+					}
+					.event-severity {
+					position: relative;
+					padding-left: 34px;
+					display: inline-block;
+					line-height: 14px;
+					height: 14px;
+					}
+					.event-severity:before {
+					content: '';
+					display: block;
+					position: absolute;
+					left: 0;
+					top: 0;
+					height: 8px;
+					transform: translateY(50%);
+					width: 26px;
+					background: repeating-linear-gradient(to right,#d9d9d9,#d9d9d9 8px,transparent 8px,transparent 9px);
+					}
+					.event-severity:after {
+					content: '';
+					display: block;
+					position: absolute;
+					left: 0;
+					top: 0;
+					height: 8px;
+					transform: translateY(50%);
+					}
+					.event-severity.event-severity-high:after {
+					width: 26px;
+					background: repeating-linear-gradient(to right,#900,#900 8px,transparent 8px,transparent 9px);
+					}
+					.event-severity.event-severity-low:after {
+					width: 8px;
+					background: repeating-linear-gradient(to right,#f56a00,#f56a00 8px,transparent 8px,transparent 9px);
+					}
+					.event-severity.event-severity-informational:after {
+					width: -1px;
+					background: repeating-linear-gradient(to right,#d9d9d9,#d9d9d9 8px,transparent 8px,transparent 9px);
+					}
+					.event-severity.event-severity-medium:after {
+					width: 17px;
+					background: repeating-linear-gradient(to right,#f56a00,#f56a00 8px,transparent 8px,transparent 9px);
+					}
+					.collapsible{
+					background-color: #FFFFFF;
+					cursor: pointer;
+					padding: 18px;
+					border: none;
+					text-align: left;
+					outline: none;
+					height: 80px;
+					width: 400px;
+					}
+          .container{
+          width: 100%;
+					clear: both;
+					float: left;
+					}
+					.childContainer{
+					width: 50%;
+					float: left;
+					}
+					.beforeResult{
+					width: 300px;
+					}
+					.collapsible:after {
+					content: '̭';
+					float: right;
+					margin-top: -80px;
+					font-size: 50px;
+					}
+					.collapsible.active:after {
+					content: '̬';
+					}
+					.results{
+					width:98%;
+					}
+					.details{
+					width:97%;
+					}
+
+				</style></head><body><h1>MDE Client Analyzer Results</h1><div><p><b>Script Version: </b>
+      23Dec2024
+     | <b>Script RunTime: </b>
+      02/02/2025 1:57:11 午前 +00:00
+     | <b></b> | <b></b></p></div><button type="button" class="collapsible"><h2>Device Information</h2></button><div style="display: block;"><div class="container"><div class="childContainer"><h3>General Device Details</h3><table class="details"><tr><th width="350px">Device name</th><td>Windows11-Maste</td></tr><tr><th width="350px">Device Operating System</th><td>Microsoft Windows 11 Enterprise multi-session</td></tr><tr><th width="350px">OS build number</th><td>Microsoft Windows NT 10.0.26100.0.2894</td></tr><tr><th width="350px">OS Edition</th><td>Client</td></tr><tr><th width="350px">OS Architecture</th><td>64 ビット</td></tr><tr><th width="350px">SystemBootTime</th><td>02/01/2025 23:10:12</td></tr><tr><th width="350px">Streamlined Connectivity Readiness (Preview)</th><td><span style="color:green">READY</span></td></tr><tr><th width="350px">System-wide WinHTTP proxy</th><td>    Direct access (no proxy server).</td></tr><tr><th width="350px">Azure Resource Id</th><td>/subscriptions/e73a5200-6fa0-4849-96e8-f55c581839c9/resourceGroups/Image-rg/providers/Microsoft.Compute/virtualMachines/Windows11-24H2-Master</td></tr></table><br /></div><div class="childContainer"><h3>Device Configuration Management Details</h3><table class="details"><tr><th width="350px">Enrollment Status</th><td>Device is not enrolled and has never been enrolled (2)</td></tr><tr><th width="350px">Domain Joined</th><td>NO</td></tr><tr><th width="350px">Azure AD Joined</th><td>NO</td></tr><tr><th width="350px">Workplace Joined</th><td>NO</td></tr></table><br /></div></div><div class="container"><div class="childContainer"><h3>AV Component Details</h3><table class="details"><tr><th width="350px">Defender AV Service Status</th><td><span style="color:green">Running</span></td></tr><tr><th width="350px">Windows Security Center Service Status</th><td><span style="color:green">Running</span></td></tr><tr><th width="350px">Windows Security Health Service Status</th><td><span style="color:green">Running</span></td></tr><tr><th width="350px">Defender AV SSLOptions configuration</th><td>False</td></tr><tr><th width="350px">Defender AV mode</th><td><span style="color:green">Active</span></td></tr><tr><th width="350px">Defender Network Inspection Service</th><td><span style="color:green">Running</span></td></tr><tr><th width="350px">Defender Network Inspection Driver</th><td><span style="color:green">Running</span></td></tr><tr><th width="350px">Defender AV Platform Version</th><td><span style="color:green">4.18.24090.11</span></td></tr><tr><th width="350px">Defender AV Security Intelligence Version</th><td><span style="color:green">1.421.1648.0</span></td></tr><tr><th width="350px">Defender AV engine Version</th><td><span style="color:green">1.1.24090.11</span></td></tr><tr><th width="350px">Defender Is Tamper Protected</th><td><span style="color:green">True</span></td></tr><tr><th width="350px">Defender Tamper Protection Source</th><td>ATP</td></tr><tr><th width="350px">Defender Is Tamper Protection Exclusions Enabled</th><td>False</td></tr><tr><th width="350px">Defender Network Protection Mode</th><td>Log Mode (Disabled)</td></tr></table><br /></div><div class="childContainer"><h3>EDR Component Details</h3><table class="details"><tr><th width="350px">Device ID</th><td>32cb1f774765658afb0c1f678d43565dbcad8c0f</td></tr><tr><th width="350px">Organization Id</th><td>6e1b9c61-0ca4-4483-a52a-3de0253579fc</td></tr><tr><th width="350px">Sense version</th><td>10.8775.27682.1012</td></tr><tr><th width="350px">Sense Configuration version</th><td>10.8779.main.2025.01.27.09</td></tr><tr><th width="350px">DiagTrack (UTC) Service Status</th><td><span style="color:green">Running</span></td></tr><tr><th width="350px">Microsoft Account Sign-in Assistant Start Type</th><td>Manual</td></tr><tr><th width="350px">Anti-Spoofing capability deployed</th><td>YES</td></tr><tr><th width="350px">MachineAuth ID</th><td>32cb1f774765658afb0c1f678d43565dbcad8c0f </td></tr><tr><th width="350px">Anti-Spoofing State GUID</th><td>66748D4C-F662-482E-8EAE-F8D73CD9AFED </td></tr><tr><th width="350px">Sense Service Discovered Proxy</th><td>Proxy config: Method=Direct, address=</td></tr><tr><th width="350px">Device Datacenter Location</th><td>US</td></tr><tr><th width="350px">Device Onboarded via Streamlined Connectivity</th><td>YES</td></tr><tr><th width="350px">Sense service Status</th><td><span style="color:green">Running</span></td></tr><tr><th width="350px">Sense service StartType</th><td>Automatic</td></tr></table><br /></div></div></div><div><hr /><div><button type="button" class="collapsible"><h2>Check Results Summary</h2></button><div style="display: block;"><table class="beforeResult"><tr><th width="120px"><span class="event-severity event-severity-high"><span>Error</span></span></th><th width="120px"><span class="event-severity event-severity-medium"><span>Warning</span></span></th><th width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></th></tr><tr><td>0</td><td>1</td><td>10</td></tr></table></div><br /><button type="button" class="collapsible"><h2>Detailed Results</h2></button><div style="display: block;"><table class="results"><tr><th width="120px">Category</th><th width="120px">Severity</th><th width="80px">Id</th><th width="200px">Test Name</th><th>Results</th><th>Guidance</th></tr><tr><td>Configuration</td><td width="120px"><span class="event-severity event-severity-medium"><span>Warning</span></span></td><td>121042</td><td width="180px">NetworkProtection</td><td>A configuration or dependency is preventing Network Protection from starting.</td><td width="400px">Please review this error message to understand the blocking issue and resolve it: [WARNING] Network Protection cannot be set to block or audit mode because this is a Windows Server system and AllowNetworkProtectionOnWinServer is not set</td></tr><tr><td>Configuration</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>120037</td><td width="180px">AntiSpoofingStable</td><td>Device is anti-spoofing capable and in a stable state</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130017</td><td width="180px">EDRCloud CnC</td><td>Test connection to the Microsoft Defender for Endpoint (CnC) cloud service URLs completed successfully.</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130018</td><td width="180px">EDRCloud Cyber</td><td>Test connection to the Microsoft Defender for Endpoint (Cyber) cloud service URLs completed successfully.</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130019</td><td width="180px">EDRCloud AutoIR</td><td>Test connection to the Microsoft Defender for Endpoint (AutoIR) cloud service URLs completed successfully.</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130020</td><td width="180px">AVCloud SampleUpload</td><td>Test connection to the Microsoft Defender for Endpoint (SampleUpload) cloud service URLs completed successfully.</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130021</td><td width="180px">EDRCloud MdeConfigMgr</td><td>Test connection to the Microsoft Defender for Endpoint (MdeConfigMgr) cloud service URLs completed successfully.</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130011</td><td width="180px">AVCloud</td><td>Test connection to the Microsoft Defender Antivirus cloud service completed successfully.</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130012</td><td width="180px">AVCloud</td><td>Current network connection is not metered.</td><td width="400px">N/A</td></tr><tr><td>Connectivity</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>130010</td><td width="180px">CertRevocation</td><td>Certificate validation for the Defender for Endpoint cloud service completed successfully.</td><td width="400px">N/A</td></tr><tr><td>Environment</td><td width="120px"><span class="event-severity event-severity-informational"><span>Informational</span></span></td><td>110005</td><td width="180px">CheckPPL</td><td>The sensor on this device is PPL protected as expected</td><td width="400px">N/A</td></tr></table></div></div></div><script type="text/javascript" defer="true"><!--
+					
+					var collapsible = document.getElementsByClassName("collapsible");
+					for (var i = 0; i < collapsible.length; i++){
+						collapsible[i].addEventListener("click", function() {
+							this.classList.toggle("active");
+							var content = this.nextElementSibling;
+							if (content.style.display === "block") {
+								content.style.display = "none";
+							} else {
+								content.style.display = "block";
+							}
+						});
+					}
+					
+					--></script></body></html>
